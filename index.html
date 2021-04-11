@@ -8,73 +8,82 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-      <section class="skewedBox">
+    <section class="skewedBox">
+      <header class="header">
+        <h3 class="titleTop">Uma seleção de produtos</h3>
+        <h1 class="title">especial para você!</h1>
+        <p class="paragraph">
+          Todos os produtos desta lista foram selecionados a partir da sua
+          navegação. Aproveite!
+        </p>
+      </header>
 
-          <header class="header">
-            <h3 class="titleTop">uma seleção de produtos</h3>
-            <h1 class="title">especial para você</h1>
-            <p class="paragraph">
-              Todos os produtos desta lista foram selecionados a partir da sua
-              navegação. Aproveite!
-            </p>
-          </header>
-      
-          <nav class="nav">
-              <ul>
-                <li><button class="btn">Conheça a Linx</button></li>
-                <li><button class="btn">Ajude o algorítimo</button></li>
-                <li><button class="btn">Seus produtos</button></li>
-                <li><button class="btn">Compartilhe</button></li>
-            </ul>                                   
-          </nav>
-
-      </section>
+      <nav class="nav">
+        <ul>
+          <li><button class="btn">Conheça a Linx</button></li>
+          <li><button class="btn">Ajude o algorítimo</button></li>
+          <li><button class="btn">Seus produtos</button></li>
+          <li><button class="btn">Compartilhe</button></li>
+        </ul>
+      </nav>
+    </section>
 
     <main class="content">
-        <div class="container">
-            <h3>Ajude o algorítimo a ser mais certeiro</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra,
-        sem feugiat tristique ornare, erat tortor iaculis sem, vitae efficitur
-        ligula nisi vel dui. Ut mollis metus ligula, at ornare magna finibus
-        nec. Morbi consequat et tellus ac faucibus. Nunc eu suscipit urna.
-        Praesent a bibendum arcu, quis venenatis metus. Class aptent taciti
-        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        Maecenas in accumsan nisi. Pellentesque at egestas arcu. Duis rhoncus
-        nisi sit amet porta aliquam. Suspendisse malesuada, sem a efficitur
-        mollis, dolor est lobortis nisl, sit amet lacinia nisl nunc ut tellus.
-      </p>
+      <div class="container">
+        <h3 class="paragraph">Ajude o algorítimo a ser mais certeiro</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra,
+          sem feugiat tristique ornare, erat tortor iaculis sem, vitae efficitur
+          ligula nisi vel dui. Ut mollis metus ligula, at ornare magna finibus
+          nec. Morbi consequat et tellus ac faucibus. Nunc eu suscipit urna.
+          Praesent a bibendum arcu, quis venenatis metus. Class aptent taciti
+          sociosqu ad litora torquent per conubia nostra, per inceptos
+          himenaeos. Maecenas in accumsan nisi. Pellentesque at egestas arcu.
+          Duis rhoncus nisi sit amet porta aliquam. Suspendisse malesuada, sem a
+          efficitur mollis, dolor est lobortis nisl, sit amet lacinia nisl nunc
+          ut tellus.
+        </p>
 
-      <p>
-        Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum
-        ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed, egestas
-        erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque mattis,
-        consequat velit ut, ultrices orci. Nulla varius elementum erat vel
-        pharetra. Aenean sit amet nisi diam. Morbi viverra, magna ac luctus
-        commodo, odio ante suscipit libero, at mattis augue est vel metus.
-      </p>
-        </div>
-      
-       <div class="form">
+        <p>
+          Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum
+          ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed,
+          egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut
+          neque mattis, consequat velit ut, ultrices orci. Nulla varius
+          elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi viverra,
+          magna ac luctus commodo, odio ante suscipit libero, at mattis augue
+          est vel metus.
+        </p>
+      </div>
+
+      <div class="form">
         <form>
-            <label for="name">Seu nome:</label><br />
-            <input type="text" id="name" name="name" /><br /><br />
-            <label for="email">E-mail:</label><br />
-            <input type="email" id="email" name="email" /><br /><br />
-            <label for="cpf">CPF:</label><br />
-            <input type="email" id="cpf" name="cpf" /><br /><br />
-    
-            <input type="radio" id="male" name="gender" value="male" />
-            <label for="male">Masculino</label>
-    
-            <input type="radio" id="female" name="gender" value="female" />
-            <label for="female">Feminino</label><br /><br />
-    
-            <input type="submit" value="Enviar" />
-          </form>
+          <label for="name">Seu nome:</label><br />
+          <input class="input" type="text" id="name" name="name" /><br /><br />
+          <label for="email">E-mail:</label><br />
+          <input
+            class="input"
+            type="email"
+            id="email"
+            name="email"
+          /><br /><br />
+          <label for="cpf">CPF:</label><br />
+          <input class="input" type="email" id="cpf" name="cpf" /><br /><br />
 
-       </div>
-      
+          <input class="#" type="radio" id="male" name="gender" value="male" />
+          <label for="male">Masculino</label>
+
+          <input
+            class="radio"
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+          />
+          <label for="female">Feminino</label><br /><br />
+
+          <input class="btn-form" type="submit" value="Enviar" />
+        </form>
+      </div>
     </main>
 
     <section>
@@ -83,35 +92,52 @@
       <!-- cards produtos -->
     </section>
 
-    <section>
+    <section class="card">
       <button>Ainda mais produtos aqui!</button>
 
       <!-- cards mais produtos -->
     </section>
 
-    <section>
-      <h3 class="separator">Compartilhe a novidade</h3>
+    <h3 class="separator">Compartilhe a novidade</h3>
 
-      <p>
-        Quer que seus amigos também ganhem a lista personalizada deles? Preencha
-        agora!
-      </p>
+    <p class="share-p">
+      Quer que seus amigos também ganhem a lista personalizada deles? Preencha
+      agora!
+    </p>
+    <br />
 
-      <form>
-        <label for="name">Nome do seu amigo:</label><br />
-        <input type="text" id="name" name="name" /><br /><br />
-        <label for="email">E-mail:</label><br />
-        <input type="email" id="email" name="email" /><br /><br />
+    <form>
+      <div class="guest-form">
+        <section class="form-share">
+          <label for="name">Nome do seu amigo:</label><br />
+          <input
+            class="input-share"
+            type="text"
+            id="name"
+            name="name"
+          /><br /><br />
+        </section>
 
-        <input type="submit" value="Enviar Agora" />
-      </form>
-    </section>
+        <section class="form-share2">
+          <label for="email">E-mail:</label><br />
+          <input
+            class="input-share"
+            type="email"
+            id="email"
+            name="email"
+          /><br /><br />
+        </section>
+      </div>
+      <div class="share">
+        <input class="btn-share" type="submit" value="Enviar Agora" />
+      </div>
+    </form>
 
     <footer class="skewedBoxFooter">
       <div class="footer">
-          <p>Testando suas habilidades em HTML, CSS e JS.</p>
-          <p>Linx Impulse</p>
-          <p>2021</p>
+        <p>Testando suas habilidades em HTML, CSS e JS.</p>
+        <p>Linx Impulse</p>
+        <p>2021</p>
       </div>
     </footer>
 

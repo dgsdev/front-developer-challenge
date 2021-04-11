@@ -1,90 +1,132 @@
-body {   
-    padding: 0;
-    margin: 0;    
-    font-family: Helvetica Neue;
-    height: 100%;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica Neue;
+  height: 100%;
 }
 /* ########## Título e Navegação ########## */
 
-.skewedBox {  
-    width: 100%;
-    height: 300px;
-    background: #707070;
-    padding: 100px 0;
-    transform: skew(0deg, 8deg) translateY(-120px);
+.skewedBox {
+  width: 100%;
+  height: 300px;
+  background: #707070;
+  padding: 100px 0;
+  transform: skew(0deg, 8deg) translateY(-120px);
 }
 .header {
-    text-align: center;    
-    padding: 30px 300px;
-    transform: skew(0deg, -8deg);
-    color: #fff;
+  text-align: center;
+  padding: 30px 300px;
+  transform: skew(0deg, -8deg);
+  color: #fff;
 }
-.nav {  
-    text-align: center;  
-    transform: skew(0deg, -8deg);
+.nav {
+  text-align: center;
+  transform: skew(0deg, -8deg);
 }
-li {   
-    list-style-type: none;
-    display: inline;
-    margin: 0 0 0 40px;
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 0 0 40px;
 }
 .btn {
-    width: 160px;
-    height: 40px;
-    font: normal normal normal 16px Helvetica Neue;
-    letter-spacing: 0px;
-    color: #888888;
-    opacity: 1;
-    text-align: center;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 1px 6px #00000029;
-    border: 1px solid #707070;
-    border-radius: 4px;
+  width: 160px;
+  height: 40px;
+  font: normal normal normal 16px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  text-align: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 6px #00000029;
+  border: 1px solid #707070;
+  border-radius: 4px;
 }
 .titleTop {
-    font: normal normal normal 24px Helvetica Neue;
-    margin: 69px 0 0 0;
+  font: normal normal normal 24px Helvetica Neue;
+  margin: 69px 0 0 0;
 }
 .title {
-    font: normal normal bold 49px Helvetica Neue;
-    margin: 0;
+  font: normal normal bold 49px Helvetica Neue;
+  margin: 0;
 }
 .paragraph {
-    font: normal normal normal 16px Helvetica Neue;
-}
-.separator {
-  display: flex;
-  align-items: center;
-  text-align: center;  
+  font: normal normal normal 16px Helvetica Neue;
 }
 
 /* ########## Conteúdo e Formulários ########## */
 
 .content {
-    display: flex;
-
+  margin: 50px 0 50px 100px;
+  display: flex;
+  font-family: Helvetica Neue;
 }
 .container {
-    width: 50%;
-    background-color: green;
-
+  padding: 0 0 0 50px;
+  width: 50%;
+  font-size: 12px;
+  color: #888888;
 }
 .form {
-    width: 50%;
-    background-color: yellow;
-
+  padding: 10px 0 0 50px;
+  width: 50%;
+  font-size: 12px;
+  color: #888888;
+}
+.input {
+  height: 25px;
+  width: 340px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  border-radius: 2px;
+}
+.btn-form {
+  height: 39px;
+  width: 345px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 1;
+  border-radius: 5px;
+  color: #888888;
+  font-size: 16px;
+}
+.radio {
+  margin-left: 35px;
+  opacity: 1;
 }
 /* ########## Card Produtos ########## */
 
-
+.card {
+  text-align: center;
+}
+.card button {
+  width: 260px;
+  height: 39px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 1;
+  color: #888888;
+  font-size: 16px;
+  margin-bottom: 40px;
+  font-family: Helvetica Neue;
+}
 
 /* ########## Separadores ########## */
-
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #888888;
+  font: normal normal bold 16px Helvetica Neue;
+  margin: 50px 150px 50px 150px;
+}
 .separator::before,
 .separator::after {
   content: "";
   flex: 1;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #888888;
 }
 .separator::before {
   margin-right: 0.25em;
@@ -93,18 +135,73 @@ li {
   margin-left: 0.25em;
 }
 
+/* ########## Formulário Compartilhe ########## */
+.share {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.guest-form {
+  display: flex;
+  width: 100%;
+  font: normal normal normal 14px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+}
+.form-share {
+  margin-left: 250px;
+}
+.form-share2 {
+  margin-left: 35px;
+}
+
+.btn-share {
+  width: 260px;
+  height: 39px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 1;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #888888;
+  margin-top: 40px;
+}
+
+.input-share {
+  width: 340px;
+  height: 25px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  border-radius: 2px;
+  text-align: center;
+}
+label {
+  font-size: 12px;
+}
+.share-p {
+  text-align: center;
+  font: normal normal normal 14px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  margin-top: 10;
+}
+
 /* ########## Footer ########## */
 
 .skewedBoxFooter {
-    width: 100%;
-    height: 193px;
-    background: #707070;  
-
+  width: 100%;
+  height: 193px;
+  background: #707070;
 }
 .footer {
-    margin: 15px;;
-    padding: 50px;
-    text-align: center;     
-    color: #fff;
-    font: normal normal normal 12px Helvetica Neue;
+  margin: 15px;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  font: normal normal normal 12px Helvetica Neue;
 }

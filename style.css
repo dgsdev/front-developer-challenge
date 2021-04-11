@@ -112,6 +112,10 @@ li {
   margin-bottom: 40px;
   font-family: Helvetica Neue;
 }
+.card-prod {
+    text-align: center;
+
+}
 
 /* ########## Separadores ########## */
 .separator {

@@ -1,17 +1,110 @@
-.separator {
-    display: flex;
-    align-items: center;
+body {   
+    padding: 0;
+    margin: 0;    
+    font-family: Helvetica Neue;
+    height: 100%;
+}
+/* ########## Título e Navegação ########## */
+
+.skewedBox {  
+    width: 100%;
+    height: 300px;
+    background: #707070;
+    padding: 100px 0;
+    transform: skew(0deg, 8deg) translateY(-120px);
+}
+.header {
+    text-align: center;    
+    padding: 30px 300px;
+    transform: skew(0deg, -8deg);
+    color: #fff;
+}
+.nav {  
+    text-align: center;  
+    transform: skew(0deg, -8deg);
+}
+li {   
+    list-style-type: none;
+    display: inline;
+    margin: 0 0 0 40px;
+}
+.btn {
+    width: 160px;
+    height: 40px;
+    font: normal normal normal 16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
     text-align: center;
-  }
-  .separator::before,
-  .separator::after {
-    content: '';
-    flex: 1;
-    border-bottom: 1px solid #000;
-  }
-  .separator::before {
-    margin-right: .25em;
-  }
-  .separator::after {
-    margin-left: .25em;
-  }
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+.titleTop {
+    font: normal normal normal 24px Helvetica Neue;
+    margin: 69px 0 0 0;
+}
+.title {
+    font: normal normal bold 49px Helvetica Neue;
+    margin: 0;
+}
+.paragraph {
+    font: normal normal normal 16px Helvetica Neue;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;  
+}
+
+/* ########## Conteúdo e Formulários ########## */
+
+.content {
+    display: flex;
+
+}
+.container {
+    width: 50%;
+    background-color: green;
+
+}
+.form {
+    width: 50%;
+    background-color: yellow;
+
+}
+/* ########## Card Produtos ########## */
+
+
+
+/* ########## Separadores ########## */
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+.separator::before {
+  margin-right: 0.25em;
+}
+.separator::after {
+  margin-left: 0.25em;
+}
+
+/* ########## Footer ########## */
+
+.skewedBoxFooter {
+    width: 100%;
+    height: 193px;
+    background: #707070;  
+
+}
+.footer {
+    margin: 15px;;
+    padding: 50px;
+    text-align: center;     
+    color: #fff;
+    font: normal normal normal 12px Helvetica Neue;
+}

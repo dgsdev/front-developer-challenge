@@ -6,4 +6,4 @@ Olá! Seja bem-vindo ao meu desafio Frontend Developer.
 
 - [Linx impulse](http://dgsdev.ddns.net/)
 
-by <a href="https://www.linkedin.com/in/dgsdouglaspinheiro/">dgsdev</a> 💻👨‍💻
+by <a href="https://www.linkedin.com/in/dgsdouglaspinheiro/" target="_blank">dgsdev</a> 💻👨‍💻🚀

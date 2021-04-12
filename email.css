@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica Neue;
+    height: 100%;
+    text-align: center;
+  }
+  .skewedBox {
+    width: 100%;
+    height: 200px;
+    background: #707070;
+    padding: 100px 0;
+    transform: skew(0deg, 4deg) translateY(-120px);
+  }
+  .header {
+    text-align: center;
+    padding: 30px 300px;
+    transform: skew(0deg, -4deg);
+    color: #fff;
+  }
+  .titleTop {
+    font: normal normal normal 24px Helvetica Neue;
+    margin: 50px 0 0 0;
+  }
+  .title {
+    font: normal normal bold 49px Helvetica Neue;
+    margin: 0;
+  }
+  .paragraph {
+    font: normal normal normal 18px Helvetica Neue;
+  }
+  .content {    
+    margin:0 40px 0 40px;
+    text-align: left;    
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+    height: 160px;
+    
+    
+  }
+  .card {
+      display: flex;
+      justify-content: center;
+  }
+  .card-content {
+      background-color: cornflowerblue;
+      margin: 0 50px 0 0;
+      width: 200px;
+      height: 150px;
+      border: 1px solid #707070;
+      opacity: 1;
+  }
+  .card-products {
+      background-color: coral;
+      width: 200px;
+      height: 150px;
+      border: 1px solid #707070;
+      opacity: 1;
+  }
+  .card-btn button {    
+    width: 400px;
+    height: 39px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    color: #888888;
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-family: Helvetica Neue;
+    margin: 100px 100px;
+  }
+  /* ########## Footer ########## */
+
+  .skewedBoxFooter {
+    width: 100%;
+    height: 210px;
+    background: #707070;
+  }
+  .footer {
+  
+    padding: 60px 0 0 60px;
+    text-align: center;
+    color: #fff;
+    font: normal normal normal 14px Helvetica Neue;
+  }
+  

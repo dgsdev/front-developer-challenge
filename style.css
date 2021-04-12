@@ -97,10 +97,10 @@ li {
 }
 /* ########## Card Produtos ########## */
 
-.card {
+.card-more {
   text-align: center;
 }
-.card button {
+.card-more button {
   width: 260px;
   height: 39px;
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -203,9 +203,8 @@ label {
   background: #707070;
 }
 .footer {
-  margin: 15px;
-  padding: 50px;
+  padding: 50px 0 0 60px;
   text-align: center;
   color: #fff;
-  font: normal normal normal 12px Helvetica Neue;
+  font: normal normal normal 14px Helvetica Neue;
 }

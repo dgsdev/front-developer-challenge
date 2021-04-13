@@ -118,7 +118,6 @@ li {
   font-size: 16px;
   margin-bottom: 40px;
   font-family: Helvetica Neue;
-  
 }
 .card-btn {
   width: 200px;
@@ -131,49 +130,45 @@ li {
   font-size: 16px;
   margin-bottom: 40px;
   font-family: Helvetica Neue;
-
 }
-.card-container {    
+.card-container {
   padding: 40px;
-	margin: 0 auto;
+  margin: 0 auto;
 }
 .produtos {
   display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap: 20px;  
-	padding-inline-start: 05px;
- 
-  
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding-inline-start: 05px;
 }
 .card-prod {
   width: 200px;
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
   list-style: none;
-	padding: 40px;
-	color: #222;
-	text-align: center;
-	border-radius: 5px;
-	position: relative;
-  margin: 0 10px 0 10px; 
-   
+  padding: 40px;
+  color: #222;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  margin: 0 10px 0 10px;
 }
 .card-prod:hover {
-	animation: bounce 0.5s linear;
+  animation: bounce 0.5s linear;
 }
 @keyframes bounce {
-	20% {
-			transform: translateY(-6px);
-	}
-	40% {
-			transform: translateY(0px);
-	}
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
 
-	80% {
-			transform: translateY(-2px);
-	}
-	100% {
-			transform: translateY(0);
-	}
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 img {
   width: 200px;
@@ -189,8 +184,6 @@ img {
 .card-price {
   font-size: 24px;
 }
-
-
 
 /* ########## Separadores ########## */
 .separator {
@@ -227,7 +220,6 @@ img {
   letter-spacing: 0px;
   color: #888888;
   opacity: 1;
-  
 }
 .form-share {
   margin-left: 250px;
@@ -274,15 +266,15 @@ label {
 /* ########## Footer ########## */
 
 .footer {
-  position:relative;
-  overflow:hidden;
+  position: relative;
+  overflow: hidden;
 }
 svg {
   width: 100%;
   fill: #707070;
   max-height: 50px;
   position: absolute;
-  top:0; 
+  top: 0;
 }
 .footer-content {
   color: #fff;
@@ -291,6 +283,149 @@ svg {
   background: #707070;
   margin-top: 49px;
 }
-.parag { 
+.parag {
   padding: 40px;
+}
+
+/* ### Responsive ### */
+
+@media (max-width: 770px) and (min-width: 630px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    width: 100%;
+    text-align: left;
+    padding: 2px;
+    margin: 27px;
+  }
+  .nav {
+    height: 50px;
+  }
+  .nav .btn {
+    margin: 5px 25px 50px 25px;
+  }
+  .nav ul {
+    padding: 0 10px;
+    margin: 0 100px 0 100px;
+  }
+  .content {
+    display: block;
+  }
+  .paragraph {
+    font-size: 24px;
+  }
+  .container {
+    font-size: 18px;
+    width: 80%;
+    padding: 20px 20px;
+  }
+  .form {
+    width: 80%;
+    padding: 20px 20px;
+  }
+  .form-r {
+    margin: 0 100px 0 100px;
+  }
+  .produtos {
+    padding-inline-start: 50px;
+    grid-gap: 10px;
+  }
+  .share-p {
+    font-size: 18px;
+  }
+  .guest-form {
+    display: block;
+  }
+
+  .form-share {
+    margin-left: 200px;
+  }
+  .form-share2 {
+    margin-left: 200px;
+  }
+  .input-share {
+    font-size: 50px;
+  }
+  .parag {
+    font-size: 18px;
+  }
+}
+
+/* ########################################################*/
+
+@media (max-width: 360px) {
+  html {
+    font-size: 10%;
+  }
+  .header {
+    width: 100%;
+    text-align: left;
+    padding: 2px;
+    margin: 20px;
+  }
+  .skewedBox {
+    padding: 0;
+  }
+  .header {
+    margin-top: 80px;
+  }
+  .title {
+    font-size: 35px;
+  }
+  .titleTop {
+    font-size: 18px;
+  }
+  .paragraph {
+    font-size: 10px;
+  }
+  .nav {
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav .btn {
+    margin: 10px;
+  }
+
+  .content {
+    display: block;
+  }
+  .paragraph {
+    font-size: 18px;
+  }
+  .container {
+    font-size: 12px;
+    width: 100%;
+    padding: 0 100px 0 0;
+  }
+  .form {
+    padding: 0;
+  }
+  .form-r {
+    margin: 0 5px 0 5px;
+  }
+  .produtos {
+    padding-inline-start: 50px;
+    grid-gap: 10px;
+  }
+  .share-p {
+    font-size: 18px;
+  }
+  .guest-form {
+    display: block;
+  }
+
+  .form-share {
+    margin-left: 5px;
+  }
+  .form-share2 {
+    margin-left: 5px;
+  }
+  .input-share {
+    font-size: 50px;
+  }
+  .parag {
+    font-size: 18px;
+  }
 }

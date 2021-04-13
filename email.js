@@ -9,17 +9,17 @@ fetch(url)
     //   if (i == 2) break;
     //   const lisProducts = data.products[1];
 
-      // `<li class="card-prod">
-      // <img class-card-image" src="http:${data.image}" alt="${data.name}" />
-      // <h1 class="card-title">${data.name}</h1>
-      // <p class="card-subtitle">${data.description}</p>
-      // <strike class="card-strike">De: R$${data.oldPrice}</strike>
-      // <h3 class="card-price">Por: R$${data.price}</h3>
-      // <p class="card-parcel">ou ${data.installments.count}x de R$ ${data.installments.value}</p>
-      // </li>`
+    // `<li class="card-prod">
+    // <img class-card-image" src="http:${data.image}" alt="${data.name}" />
+    // <h1 class="card-title">${data.name}</h1>
+    // <p class="card-subtitle">${data.description}</p>
+    // <strike class="card-strike">De: R$${data.oldPrice}</strike>
+    // <h3 class="card-price">Por: R$${data.price}</h3>
+    // <p class="card-parcel">ou ${data.installments.count}x de R$ ${data.installments.value}</p>
+    // </li>`
 
-      const lisProducts = data.products.reduce((accumulator, data) => {
-        accumulator += `
+    const lisProducts = data.products.reduce((accumulator, data) => {
+      accumulator += `
             <li class="card-prod">
             <img class"card-image" src="http:${data.image}" alt="${data.name}" />        
             <h1 class="card-title">${data.name}</h1>
@@ -30,12 +30,11 @@ fetch(url)
             <button class="card-btn">Comprar</button>
             </li>`;
 
-        return accumulator;
-      }, "");
+      return accumulator;
+    }, "");
 
-      const ul = document.querySelector('[data-js="card-products"]');
-      ul.innerHTML = lisProducts;
+    const ul = document.querySelector('[data-js="card-products"]');
+    ul.innerHTML = lisProducts;
 
-      console.log(lisProducts);
-    
+    console.log(lisProducts);
   });

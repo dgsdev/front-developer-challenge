@@ -1,6 +1,6 @@
 ### Desafio Linx | Frontend Developer
 
-Olá! Seja bem-vindo ao meu desafio Frontend Developer. 
+Olá! Seja bem-vindo ao meu desafio Frontend Developer. ;) 
 
 ### Link Aqui da aplicação:
 
